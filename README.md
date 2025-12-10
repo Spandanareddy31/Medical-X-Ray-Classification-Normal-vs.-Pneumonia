@@ -2,7 +2,7 @@
 
 This project builds a deep-learning model to classify chest X-ray images as Normal or Pneumonia using ResNet50 transfer learning. It includes preprocessing, training, evaluation, and Grad-CAM explainability to highlight lung regions influencing predictions.
 
-**Features**
+**Features:**
 
 ResNet50 transfer learning (freeze → fine-tune)
 
@@ -16,7 +16,7 @@ Grad-CAM visual explanations
 
 Early stopping + model checkpoints
 
-**Dataset**
+**Dataset:**
 
 Kaggle Chest X-Ray dataset with two classes:
 
@@ -26,7 +26,7 @@ Pneumonia
 
 Images are resized, normalized, and split into train/val/test.
 
-**How to Run**
+**How to Run:**
 pip install -r requirements.txt
 python train.py
 python evaluate.py
@@ -34,7 +34,7 @@ python evaluate.py
 
 Or run the provided .ipynb notebook sequentially.
 
-**Results**
+**Results:**
 
 High accuracy on validation/test sets
 
@@ -42,7 +42,7 @@ Clear separation between classes
 
 Grad-CAM highlights infected lung regions
 
-**Project Structure**
+**Project Structure:**
 /data
 /models
 /outputs
@@ -51,7 +51,7 @@ evaluate.py
 utils.py
 README.md
 
-**Future Work**
+**Future Work:**
 
 Add more chest pathologies
 
